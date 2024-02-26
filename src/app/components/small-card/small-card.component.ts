@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
 
+  photoCover:string = "cidade-submersa-na-grecia"
+  cardTitle:string = "Descoberta Arqueológica Revela Antiga Cidade Submersa na Grécia"
+
   constructor() { }
 
   ngOnInit(): void {
